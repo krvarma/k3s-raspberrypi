@@ -126,6 +126,8 @@ Use this command to get the secret to log on to the Dashboard.
 
 This command will output the token along with much other information, copy the token. Now run the following command to start the Kubernetes Proxy.
 
-    kubectl proxy --port=8080
+    kubectl proxy --port=8081
 
-Navigate to [http://localhost:8001/api/v1/namespaces/kubernetes-dashboard/services/https:kubernetes-dashboard:/proxy/#/login](http://localhost:8001/api/v1/namespaces/kubernetes-dashboard/services/https:kubernetes-dashboard:/proxy/#/login). The page will prompt you to enter the Bearer Token, enter the token to log in.
+Navigate to [http://localhost:8081/api/v1/namespaces/kubernetes-dashboard/services/https:kubernetes-dashboard:/proxy/#/login](http://localhost:8081/api/v1/namespaces/kubernetes-dashboard/services/https:kubernetes-dashboard:/proxy/#/login). The page will prompt you to enter the Bearer Token, enter the token to log in.
+
+![enter image description here](https://raw.githubusercontent.com/krvarma/k3s-raspberrypi/master/images/6.dashboard.png)

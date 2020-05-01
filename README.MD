@@ -128,6 +128,8 @@ This command will output the token along with much other information, copy the t
 
     kubectl proxy --port=8081
 
+![Install Dashboard](https://raw.githubusercontent.com/krvarma/k3s-raspberrypi/master/images/7.dashboard.svg)
+
 Navigate to [http://localhost:8081/api/v1/namespaces/kubernetes-dashboard/services/https:kubernetes-dashboard:/proxy/#/login](http://localhost:8081/api/v1/namespaces/kubernetes-dashboard/services/https:kubernetes-dashboard:/proxy/#/login). The page will prompt you to enter the Bearer Token, enter the token to log in.
 
 ![enter image description here](https://raw.githubusercontent.com/krvarma/k3s-raspberrypi/master/images/6.dashboard.png)
